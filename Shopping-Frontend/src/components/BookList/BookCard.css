@@ -1,0 +1,90 @@
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: hsl(0, 100%, 99%);
+  transition: box-shadow 0.3s ease;
+
+  }
+
+  .book-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .book-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .book-details {
+    margin-top: 16px;
+  }
+  
+  .book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .book-writer {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 8px;
+  }
+  
+  .book-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .book-tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 8px;
+  }
+  
+  .book-tag {
+    background-color: #e0e0e0;
+    color: #333333;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-button,
+  .cancel-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .order-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+  }
+  
